@@ -32,7 +32,7 @@ Visit [Local Host](http://localhost/)
 
 ## 📍 Screenshots
 
-![](https://github.com/Tushar-goyal-2712/Cineflix-Website-clone/blob/5b833a3d516c89b04d52bfa75f07d59ad6ff6b08/Screenshots/cineflix-movie.png)
+![](https://github.com/Tushar-goyal-2712/Portfolio/blob/ff426e9c800a416da51b3c6a84aadff65a281dd7/Screenshots/design.png)
 
 ## 📍 Deployment
 

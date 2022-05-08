@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <!--
+    - container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <!--
+        - navbar toggle open button
+      -->
+
+      <button class="menu-open-btn">
+        <span>Menu</span>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="nav">
+
+        <button class="menu-close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h4 class="nav-heading">Menu</h4>
+
+        <ul>
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">My Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+
+
+        <div class="nav-footer">
+          <ul class="social-link">
+            <li>
+              <a href="https://www.facebook.com/tushargoyal2712/">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/tushar_goyal_2712/?hl=en">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/2712-tushar-goyal//">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Tushar-goyal-2712">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!--
+        - header intro
+      -->
+
+      <section class="intro section-padding">
+
+        <div class="intro-profile">
+
+          <div class="intro-border one"></div>
+          <div class="intro-border two"></div>
+
+          <div class="img-box">
+            <img src="./assets/images/tushar-goyal.jpg" alt="" class="intro-img" width="100%" loading="lazy">
+          </div>
+
+          <p>Hi there! I am</p>
+
+          <div class="profile-name">
+            <span>[</span>
+            <div>Tushar Goyal</div>
+            <span>]</span>
+          </div>
+
+        </div>
+
+        <a href="#contact" class="intro-link">
+          <span class="circle"></span>
+          <span class="link-underline">I’m available from June 2022 until August 2022</span>
+        </a>
+
+      </section>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME
+      -->
+
+      <section class="section-padding" id="home">
+
+        <h3 class="section-subtitle">Introduction</h3>
+
+        <h2 class="section-title">Software and Web Developer</h2>
+
+        <p class="section-desc"> To be able to work for an encouraging and stable company that will assist me in developing, improving and obtaining the necessary skills in order to become the best engineer possible.</p>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section-padding" id="about">
+
+        <h3 class="section-subtitle">About me</h3>
+
+        <h2 class="section-title">Biography</h2>
+
+        <p class="section-desc">I am a software and web developer with a diverse range of skills. I have a lot of experience handling multiple tasks on a daily basis and working well under pressure. A key strength is being able to communicate effectively with others in order to deliver the best results.</p>
+
+        <table class="about-table">
+          <tr>
+            <th>Name</th>
+            <td>Tushar Goyal</td>
+          </tr>
+          <tr>
+            <th>Birthday</th>
+            <td>27th December 2000</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td>21 years</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>New Delhi</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td>
+              <a href="tel:+91 7065860025" class="link-underline">(+91) 7065860025</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>
+              <a href="mailto:tushargoyal2712@gmail.com" class="link-underline">tushargoyal2712@gmail.com</a>
+            </td>
+          </tr>
+        </table>
+
+        <button class="download-cv">
+          <ion-icon name="cloud-download-outline"></ion-icon>
+          <span>Download cv</span>
+        </button>
+
+        <div class="about-tab">
+          <ul class="tab-nav">
+            <li>
+              <button class="one tab-button active">Education</button>
+            </li>
+            <li>
+              <button class="two tab-button">Skills</button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content-group">
+            <div class="one tab-content active">
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Amity university, Noida, Uttar Pradesh</h4>
+                  <p>( 2019 — Today )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Computer Science Engineering ( Specialization in AI and ML )</h3>
+                  <p>Tushar Goyal is currently pursuing the aforementioned course with an aggregate CGPA of 7.63 (as of semester 1,2,3,4,5).</p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Gagan Bharti public School, Uttam Nagar, New Delhi</h4>
+                  <p>( 2018 — 2019 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Senior Secondary School Examination</h3>
+                  <p>Tushar Goyal has successfully passed the aforementioned Examination with 83.5 %.</p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Gagan Bharti public School, Uttam Nagar, New Delhi</h4>
+                  <p>( 2016 — 2017 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Secondary School Examination</h3>
+                  <p>Tushar Goyal has successfully passed the aforementioned Examination with 9.4 CGPA.</p>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="two tab-content">
+
+              <div class="skill-box">
+                <h4 class="skill-name">HTML & CSS</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%;"></div>
+                  <div class="progress-rate" style="left: 95%;">95%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Javascript</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                  <div class="progress-rate" style="left: 80%;">80%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">React JS</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 87%;"></div>
+                  <div class="progress-rate" style="left: 87%;">87%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Bootstrap & Tailwind CSS</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%;"></div>
+                  <div class="progress-rate" style="left: 95%;">95%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Python</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 93%;"></div>
+                  <div class="progress-rate" style="left: 93%;">93%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">C & C++</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%;"></div>
+                  <div class="progress-rate" style="left: 85%;">85%</div>
+                </div>
+              </div>
+              <br>
+              <p class="skill-text">
+                A creative designer with a love for minimal design, clean typography and well-written code.
+                <br>
+                Provide high quality offshore web and software development services.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <section class="section-padding" id="portfolio">
+
+        <h3 class="section-subtitle">Portfolio</h3>
+
+        <div class="wrapper">
+
+          <h2 class="section-title">Front-End Development Projects</h2>
+
+          <div class="btn-group">
+            <button id="portfolio-carousel-prev">
+              <div class="arrow">
+                <div class="arrow-head-left"></div>
+              </div>
+            </button>
+
+            <button id="portfolio-carousel-next">
+              <div class="arrow">
+                <div class="arrow-head-right"></div>
+              </div>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="portfolio-carousel">
+
+          <div class="portfolio-carousel-inner">
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-1.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://parallax-scrolling-by-tushar.netlify.app/">Parallax Scrolling Effects</a></h4>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-2.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://loop-studios-landing-page-by-tushar.netlify.app/">Loop Studios Landing Page</a></h4>
+              </div>
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-3.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://cineflix-movie-website-by-tushar.netlify.app/">Cineflix Landing Page Design</a></h4>
+              </div>
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-4.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://filmlane-movie-website-by-tushar.netlify.app/">Filmlane Landing Page Design</a></h4>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-5.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://website-page-design-by-tushar.netlify.app/">Bubble Design Landing Page</a></h4>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-6.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://galatic-background-design-by-tushar.netlify.app/">Galatic Background Design</a></h4>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-7.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://scientific-calculator-by-tushar.netlify.app/">Scientific Calculator</a></h4>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-8.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://panda-login-page-by-tushar.netlify.app/">Panda Login Page</a></h4>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-9.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://shopping-cart-by-tushar.netlify.app/">Shopping Cart</a></h4>
+              </div>
+            </div>
+
+            <div class="portfolio-carousel-card">
+              <div class="card-head">
+                <img src="./assets/images/slider-10.JPG" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h4><a href="https://note-taking-with-title-by-tushar.netlify.app/">Note Taking Website</a></h4>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <br><br>
+        <h2 class="section-title">Python Projects</h2>
+        <br>
+
+        <div class="content-card">
+
+          <div class="card-head">
+            <h4><a href="https://github.com/Tushar-goyal-2712/Diabetes-Detection-Python.git">Diabetes Detection</a></h4>
+          </div>
+
+          <div class="card-body">
+            <p>Diabetes Detection using numpy, pandas and sklearn</p>
+          </div>
+
+        </div>
+        <div class="content-card">
+
+          <div class="card-head">
+            <h4><a href="https://github.com/Tushar-goyal-2712/Facemask-Detection-Python.git">Face Mask Detection</a></h4>
+          </div>
+
+          <div class="card-body">
+            <p>Face Mask Detection using tensorflow, numpy, imutils, openCV</p>
+          </div>
+
+        </div>
+        <div class="content-card">
+
+          <div class="card-head">
+            <h4><a href="https://github.com/Tushar-goyal-2712/Fake-News-Detection-Python.git">Fake News Detection</a></h4>
+          </div>
+
+          <div class="card-body">
+            <p>Fake News Detection using numpy, pandas and sklearn</p>
+          </div>
+
+        </div>
+        <div class="content-card">
+
+          <div class="card-head">
+            <h4><a href="https://github.com/Tushar-goyal-2712/Digit-Classification.git">Digit Classification</a></h4>
+          </div>
+
+          <div class="card-body">
+            <p>Digit Classification using numpy, matplotlib, keras, tensorflow, seaborn and openCV</p>
+          </div>
+
+        </div>
+        <div class="content-card">
+
+          <div class="card-head">
+            <h4><a href="https://github.com/Tushar-goyal-2712/Mobile-As-Webcam.git">Mobile Camera as Webcam</a></h4>
+          </div>
+
+          <div class="card-body">
+            <p>For webcam we use numpy, urllib.request, time and openCV</p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICES
+      -->
+
+      <section class="section-padding" id="services">
+
+        <h3 class="section-subtitle">My Expertise</h3>
+        <div class="service-cards-group">
+          <div class="service-card">
+            <div class="card-body">
+              <h3>Front End Designing</h3>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-body">
+              <h3>Single Page Application</h3>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-body">
+              <h3>Responsive Designing</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="section-padding" id="contact">
+
+        <h3 class="section-subtitle">Contact</h3>
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="section-desc">If you have any suggestion, project or even you want to say “hello”, please
+          fill out the form below and I will reply you shortly.</p>
+
+
+        <form action="https://formspree.io/f/mjvlpvqo" method="POST" class="contact-form">
+
+          <div class="wrapper">
+
+            <div>
+              <label for="name">Name *</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+              <label for="email">Email *</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="8"></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+
+        <div class="address">
+          <h4>Address</h4>
+          <address>Om Vihar, Uttam Nagar, New Delhi</address>
+        </div>
+
+        <div class="phone">
+          <h4>Phone</h4>
+          <a href="tel:+917065860025">(+91) 7065860025</a>
+        </div>
+
+        <div class="email">
+          <a href="mailto:tushargoyal2712@gmail.com" class="link-underline">tushargoyal2712@gmail.com</a>
+        </div>
+      </section>
+
+      <!--
+        - #FOOTER
+      -->
+
+      <div class="footer">
+        <a href="#home" class="go-top">
+          <div class="arrow">
+            <div class="arrow-head"></div>
+          </div>
+        </a>
+        <p class="copyright">
+          Copyright © 2022. All rights reserved.
+          <br>
+          <br>
+          <a href="#" class="link-underline">CODED BY TUSHAR GOYAL</a>
+        </p>
+      </div>
+    </main>
+
+  </div>
+  <script src="./assets/js/form.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

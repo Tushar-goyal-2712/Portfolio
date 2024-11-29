@@ -30,10 +30,6 @@ Start the server
 Visit [Local Host](http://localhost/)
 
 
-## 📍 Screenshots
-
-![](https://github.com/Tushar-goyal-2712/Portfolio/blob/ff426e9c800a416da51b3c6a84aadff65a281dd7/Screenshots/design.png)
-
 ## 📍 Deployment
 
 The project is deployed on Netlify

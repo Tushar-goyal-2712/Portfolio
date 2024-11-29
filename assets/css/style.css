@@ -434,6 +434,25 @@ header {
   font-size: var(--fs-5);
 }
 
+.content-card .card-body ul {
+  color: var(--battleship-gray);
+  font-size: var(--fs-5);
+}
+
+.content-card .card-body ul li{
+  color: var(--battleship-gray);
+  font-size: var(--fs-5);
+}
+
+.bullet-points {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.bullet-points li {
+  margin-bottom: 5px;
+}
+
 
 .skill-box { margin-bottom: 30px; }
 
@@ -490,7 +509,7 @@ header {
 }
 
 .skill-text {
-  max-width: 500px;
+  max-width: 700px;
   color: var(--battleship-gray);
   font-size: var(--fs-5);
   margin-top: 40px;
@@ -812,7 +831,7 @@ header {
 
 .address, .phone, .email { margin-bottom: 50px; }
 
-:is(.address, .phone) h4 {
+:is(.address, .phone, .email) h4 {
   color: var(--battleship-gray);
   font-size: var(--fs-6);
   font-weight: 400;
@@ -821,7 +840,8 @@ header {
 }
 
 .address address,
-.phone a {
+.phone a,
+.email a {
   color: var(--gainsboro);
   font-size: var(--fs-3);
   font-style: normal;
@@ -829,11 +849,6 @@ header {
 }
 
 .phone a:hover { color: var(--liver-chestunut); }
-
-.email a {
-  color: var(--gainsboro);
-  font-size: var(--fs-5);
-}
 
 .footer {
   position: relative;
